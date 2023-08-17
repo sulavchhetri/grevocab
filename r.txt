@@ -1,0 +1,767 @@
+
+ 
+
+
+
+
+
+
+
+
+	<div
+		class="wordPage blurbed clearfloat content-wrapper" 
+   		data-lang="en"
+		data-word="repudiate"    
+   		data-maxfilterlevel="0"
+   		data-learnable="true"
+   		data-hasimage="false"
+		data-next="repudiation"
+		data-prev="republicanism"><script type="application/ld+json">{"@context":"https://schema.org/","@type":"DefinedTerm","@id":"https://www.vocabulary.com/dictionary/repudiate","name":"repudiate","description":"This verb usually refers to rejecting something that has authority, such as a legal contract, doctrine, or claim. In connection with debts or other obligations, repudiate is used in the specialized sense \"to refuse to recognize or pay.\" If referring to a child or a romantic parner, repudiate is used in the sense \"to disown, cast off.\" This verb is derived from Latin repudiare, \"to put away, divorce.\"","inDefinedTermSet":"https://www.vocabulary.com/dictionary/"}</script>
+ 	<div class="centeredContent">
+	
+	
+	
+		<div class="definitionsContainer">		
+		
+		<div class="definition-columns">
+		<div class="col-1">
+		
+			<div class="word-area">
+			<script type="text/javascript">
+			Module.after(['jquery'], function(){
+				jQuery(function($){
+					$('.pron-audio').parent().click(function(){
+						$(this).children(".pron-audio").get(0).play();
+					});
+				});
+			});
+			</script>
+				
+				
+				<!-- dictionary v2 -->
+				<h1
+					aria-label="dictionary page of the word repudiate"
+					id="hdr-word-area">
+					repudiate
+					<span style="white-space:nowrap;">
+					<vcom:addtolist word="repudiate" lang="en" label="Add to list"></vcom:addtolist>
+					<vcom:share word="repudiate" label="Share" />
+					</span>
+				</h1>
+				
+				<div class="ipa-section">
+				
+					
+					<div class="ipa-with-audio">
+						<div class="us-flag-icon"></div>
+						
+							
+								<a data-audio="R/G7QA7YTWKY6JJBVW" class="audio"></a>
+							
+							
+						
+						
+						<span style="white-space:nowrap;"><h3>/rɪˈpjudieɪt/</h3></span>
+						
+					</div>
+						
+					
+					
+						<div class="ipa-with-audio">
+						<div class="uk-flag-icon"></div>
+							
+							
+							
+								
+							
+						
+						
+						<span style="white-space:nowrap;"><h3>/rɪˈpjudieɪt/</h3></span>
+						
+						</div>
+					
+					<a class="ipa-guide" href="/resources/ipa-pronunciation/">IPA guide</a>
+				</div>
+				
+				
+			
+				
+				
+					<p class="word-forms">Other forms: <b>repudiated; repudiating; repudiates</b></p>
+				
+				<p class="short">To <i>repudiate</i> something is to reject it, or to refuse to accept or support it. If you grow up religious, but <i>repudiate</i> all organized religion as an adult, you might start spending holidays at the movies, or just going to work.</p>
+				<p class="long">This verb usually refers to rejecting something that has authority, such as a legal contract, doctrine, or claim. In connection with debts or other obligations, <i>repudiate</i> is used in the specialized sense "to refuse to recognize or pay." If referring to a child or a romantic parner, <i>repudiate</i> is used in the sense "to disown, cast off." This verb is derived from Latin <i>repudiare</i>, "to put away, divorce."</p>
+			</div>		
+			
+				
+				<!-- dictionary v2 -->
+				
+					<div class="word-definitions">
+					<div class="label">Definitions of <span class="word">repudiate</span> </div>
+					<ol>
+					
+					<li class="sense pos_v ord1 sord1" id="s85483">
+						<div class="definition">
+						    
+						    <div title="verb" name="s85483" class="pos-icon">verb</div>
+						    
+						    
+						     refuse to acknowledge, ratify, or recognize as valid</div>
+						<div class="defContent">
+						
+						
+							<div class="example">&#8220;The woman 
+<strong>repudiated</strong> the divorce settlement&#8221;</div>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							<div class="more-info-section">
+								<a class="more-info-expander" href="javascript:void(0)"><span class="expand-text">see more</span><span class="hide-text">see less</span><div class="carat-icon"></div></a>
+								<div class="more-info">
+									
+									
+									
+									
+									
+											
+									
+									
+									
+									
+									
+										
+									
+									
+									
+<dl class="instances">
+<span class="detail">type of:</span>
+
+
+
+
+
+
+
+<dd >
+<a href="/dictionary/reject" class="word">reject</a>
+<div class="definition">refuse to accept or acknowledge</div>
+</dd>			
+
+
+
+
+
+
+			
+</dl>			
+
+								</div>
+							</div>
+						
+					</div>
+					</li>
+					
+					<li class="sense pos_v ord1 sord2" id="s86512">
+						<div class="definition">
+						    
+						    <div title="verb" name="s86512" class="pos-icon">verb</div>
+						    
+						    
+						     refuse to recognize or pay</div>
+						<div class="defContent">
+						
+						
+							<div class="example">&#8220;<strong>repudiate</strong> a debt&#8221;</div>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							<div class="more-info-section">
+								<a class="more-info-expander" href="javascript:void(0)"><span class="expand-text">see more</span><span class="hide-text">see less</span><div class="carat-icon"></div></a>
+								<div class="more-info">
+									
+									
+									
+									
+									
+											
+									
+									
+									
+									
+									
+										
+									
+									
+									
+<dl class="instances">
+<span class="detail">type of:</span>
+
+
+
+
+
+
+
+<dd >
+<a href="/dictionary/balk" class="word">balk</a>, <a href="/dictionary/decline" class="word">decline</a>, <a href="/dictionary/refuse" class="word">refuse</a>
+<div class="definition">show unwillingness towards</div>
+</dd>			
+
+
+
+
+
+
+			
+</dl>			
+
+								</div>
+							</div>
+						
+					</div>
+					</li>
+					
+					<li class="sense pos_v ord1 sord3" id="s86082">
+						<div class="definition">
+						    
+						    <div title="verb" name="s86082" class="pos-icon">verb</div>
+						    
+						    
+						     reject as untrue, unfounded, or unjust</div>
+						<div class="defContent">
+						
+						
+							<div class="example">&#8220;She 
+<strong>repudiated</strong> the accusations&#8221;</div>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							<div class="more-info-section">
+								<a class="more-info-expander" href="javascript:void(0)"><span class="expand-text">see more</span><span class="hide-text">see less</span><div class="carat-icon"></div></a>
+								<div class="more-info">
+									
+									
+									
+									
+									
+											
+									
+									
+									
+									
+									
+										
+									
+									
+									
+<dl class="instances">
+<span class="detail">type of:</span>
+
+
+
+
+
+
+
+<dd >
+<a href="/dictionary/deny" class="word">deny</a>
+<div class="definition">declare untrue; contradict</div>
+</dd>			
+
+
+
+
+
+
+			
+</dl>			
+
+								</div>
+							</div>
+						
+					</div>
+					</li>
+					
+					<li class="sense pos_v ord1 sord1" id="s85821">
+						<div class="definition">
+						    
+						    <div title="verb" name="s85821" class="pos-icon">verb</div>
+						    
+						    
+						     cast off</div>
+						<div class="defContent">
+						
+						
+							<div class="example">&#8220;The parents 
+<strong>repudiated</strong> their son&#8221;</div>
+						
+						
+						
+<dl class="instances">
+<span class="detail">synonyms:</span>
+
+
+
+
+
+<span><a href="/dictionary/disown" class="word">disown</a>, <a href="/dictionary/renounce" class="word">renounce</a></span>
+
+
+
+
+
+			
+</dl>			
+
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+							<div class="more-info-section">
+								<a class="more-info-expander" href="javascript:void(0)"><span class="expand-text">see more</span><span class="hide-text">see less</span><div class="carat-icon"></div></a>
+								<div class="more-info">
+									
+									
+									
+									
+									
+											
+									
+									
+									
+									
+									
+										
+<dl class="instances">
+<span class="detail">types:</span>
+
+
+
+<dd class="more"><a href="javascript:void(0);" class="expander" >show 8 types...</a></dd>
+<dd class="less"><a href="javascript:void(0);" class="expander" >hide 8 types...</a></dd>
+
+
+
+
+
+
+<dd class="less">
+<a href="/dictionary/apostatise" class="word">apostatise</a>, <a href="/dictionary/apostatize" class="word">apostatize</a>, <a href="/dictionary/tergiversate" class="word">tergiversate</a>
+<div class="definition">abandon one's beliefs or allegiances</div>
+</dd>			
+
+
+<dd class="less">
+<a href="/dictionary/abjure" class="word">abjure</a>, <a href="/dictionary/forswear" class="word">forswear</a>, <a href="/dictionary/recant" class="word">recant</a>, <a href="/dictionary/resile" class="word">resile</a>, <a href="/dictionary/retract" class="word">retract</a>
+<div class="definition">formally reject or disavow a formerly held belief, usually under pressure</div>
+</dd>			
+
+
+<dd class="less">
+<a href="/dictionary/swallow" class="word">swallow</a>, <a href="/dictionary/take back" class="word">take back</a>, <a href="/dictionary/unsay" class="word">unsay</a>, <a href="/dictionary/withdraw" class="word">withdraw</a>
+<div class="definition">take back what one has said</div>
+</dd>			
+
+
+<dd class="less">
+<a href="/dictionary/confound" class="word">confound</a>, <a href="/dictionary/rebut" class="word">rebut</a>, <a href="/dictionary/refute" class="word">refute</a>
+<div class="definition">overthrow by argument, evidence, or proof</div>
+</dd>			
+
+
+<dd class="less">
+<a href="/dictionary/deny" class="word">deny</a>
+<div class="definition">refuse to accept or believe</div>
+</dd>			
+
+
+<dd class="less">
+<a href="/dictionary/abnegate" class="word">abnegate</a>
+<div class="definition">deny or renounce</div>
+</dd>			
+
+
+<dd class="less">
+<a href="/dictionary/contradict" class="word">contradict</a>, <a href="/dictionary/controvert" class="word">controvert</a>, <a href="/dictionary/oppose" class="word">oppose</a>
+<div class="definition">be resistant to</div>
+</dd>			
+
+
+<dd class="less">
+<a href="/dictionary/answer" class="word">answer</a>
+<div class="definition">give a defence or refutation of (a charge) or in (an argument)</div>
+</dd>			
+
+
+
+
+
+
+			
+</dl>			
+
+									
+									
+									
+<dl class="instances">
+<span class="detail">type of:</span>
+
+
+
+
+
+
+
+<dd >
+<a href="/dictionary/reject" class="word">reject</a>
+<div class="definition">refuse to accept or acknowledge</div>
+</dd>			
+
+
+
+
+
+
+			
+</dl>			
+
+								</div>
+							</div>
+						
+					</div>
+					</li>
+					
+				</ol>
+					
+				</div>
+			
+						
+			
+			
+			
+			
+			<div class="section citation">
+					<div class="header-text">Cite this entry</div> 
+					<div class="style-wrapper"> 
+						<div class="style">Style:</div>
+						<div class="style-dropdown-wrapper">
+							<div class="style-dropdown-component">
+								<div class="style-dropdown-select">MLA</div>
+								<ul class="style-dropdown-choices">
+									<li>MLA</li>
+									<li>APA</li>
+									<li>Chicago</li>
+								</ul>
+							</div>
+						</div>
+					</div> 
+					<div class="citation-wrapper" data-word="repudiate" data-mdy="August 17, 2023" data-dmy="17 Aug. 2023">
+						<p id="citation-area"></p>
+						<span class="citation-copy">Copy citation</span>
+						<div id="copyArea" contenteditable="true"></div>
+					</div>
+				</div>
+		</div>
+		<div class="col-2">
+			<div class="label-qpreview-word-entry">VocabTrainer&trade;</div>
+			<div class="box-trainer-video">
+				<div id="kaltura_player_vocabtrainer"></div>
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script src="https://cdnapi.kaltura.com/p/4764982/sp/476498200/embedIframeJs/uiconf_id/51260142/partner_id/4764982"></script>
+	
+	
+	<style>
+		.kWidgetCentered {
+			border-radius: 8px !important;
+		}
+	</style>
+	
+
+<script>
+	function initKWidget(callbackForkWidget) {
+		if (window.KWidget === undefined) {
+			$.getScript('https://cdnapi.kaltura.com/p/4764982/sp/476498200/embedIframeJs/uiconf_id/51260142/partner_id/4764982', callbackForkWidget);
+		}
+		else {
+			callbackForkWidget();
+		}
+	}
+	function callbackPlayBtnClicked(playerId) {
+		// function callbackPlayBtnClicked can be empty
+		
+			if (window.dataLayer) {
+				window.dataLayer.push({
+					'event': 'video_start',
+					'video_duration': 92,
+					'video_id': '1_cjf788io',
+					'video_provider': 'Kaltura',
+					'video_title': '2023 promo video for Vocab Trainer',
+				});
+			}
+		
+	}
+
+	initKWidget(function() {
+		
+			
+			
+				window.kWidget.thumbEmbed({
+					readyCallback: callbackPlayBtnClicked,
+					targetId: "kaltura_player_vocabtrainer",
+					wid: "_4764982",
+					uiconf_id: "51260142",
+					entry_id: "1_cjf788io",
+					flashvars:{
+						
+						'KalturaSupport.LeadWithHTML5':true,
+						
+					}
+				})
+			
+		
+	});
+</script>
+			</div>
+			<div class="box-qpreview dicttab-js-insert-vcom-qpreview"></div>
+			
+			<div class="section examples">
+				<vcom:examples word="repudiate" count="4" title="Examples from Books and Articles"></vcom:examples>
+				<div class="disclaimer">DISCLAIMER: These example sentences appear in various news sources and books to reflect the usage of the word <b>‘repudiate'</b>. 
+				Views expressed in the examples do not represent the opinion of <a href="/">Vocabulary.com</a> or its editors. 
+				<a href="https://www.ixl.com/feedback/vocabularydotcom">Send us feedback</a></div>
+			</div>	
+			
+			
+			
+			<div class="section family"><div class="header-text">Word Family</div> 
+				<vcom:wordfamily lang="en" word="repudiate" data="[{&#034;word&#034;:&#034;repudiated&#034;,&#034;parent&#034;:&#034;repudiate&#034;,&#034;freq&#034;:1.5625276597135236,&#034;ffreq&#034;:1.5625276597135236,&#034;type&#034;:1},{&#034;word&#034;:&#034;repudiate&#034;,&#034;hw&#034;:true,&#034;freq&#034;:1.0352549514974374,&#034;ffreq&#034;:4.023246441125052,&#034;type&#034;:0},{&#034;word&#034;:&#034;repudiation&#034;,&#034;hw&#034;:true,&#034;parent&#034;:&#034;repudiate&#034;,&#034;freq&#034;:0.8250904124716419,&#034;ffreq&#034;:0.8396428684750383,&#034;type&#034;:3},{&#034;word&#034;:&#034;repudiating&#034;,&#034;parent&#034;:&#034;repudiate&#034;,&#034;freq&#034;:0.3567043866879042,&#034;ffreq&#034;:0.3567043866879042,&#034;type&#034;:1},{&#034;word&#034;:&#034;repudiates&#034;,&#034;parent&#034;:&#034;repudiate&#034;,&#034;freq&#034;:0.22742442870424254,&#034;ffreq&#034;:0.22742442870424254,&#034;type&#034;:1},{&#034;word&#034;:&#034;repudiations&#034;,&#034;parent&#034;:&#034;repudiation&#034;,&#034;freq&#034;:0.014552456003396472,&#034;ffreq&#034;:0.014552456003396472,&#034;type&#034;:1},{&#034;word&#034;:&#034;repudiative&#034;,&#034;hw&#034;:true,&#034;parent&#034;:&#034;repudiate&#034;,&#034;freq&#034;:0.0016921460469065666,&#034;ffreq&#034;:0.0016921460469065666,&#034;type&#034;:5}]"></vcom:wordfamily>
+			</div>
+			<div class="section related-lists">
+				
+
+
+
+
+
+
+
+
+
+
+<link href="//cdn.vocab.com/css/related-lists-vefql6.css" rel="stylesheet" type="text/css" >
+
+
+            
+            
+            
+            
+            
+            
+            
+
+
+    <h3 class="hdr-vocab-list">
+        Vocabulary lists containing <strong>repudiate</strong>
+    </h3>
+    
+    	
+    	
+    	
+    	
+        
+        
+        
+       	
+       	
+       		
+       			
+       			
+       			
+       				
+       			
+       		
+		
+        
+            
+            
+                <div class="box-vocab-item">
+                	
+                		
+                    	
+                        	<a href="/lists/153838"><img class="img-vocab-list" src="https://cdn.vocab.com/units/hhqkn7aj/feature.png?width=500&v=185deff8363"/></a>
+                    	
+                	
+                    <div class="vocab-list-content">
+                        <a
+                          class="vlist-title"
+                          href="/lists/153838"
+                        >&#034;Letter from Birmingham Jail&#034; by Martin Luther King, Jr. (1963)</a>
+                        <p class="vlist-txt">
+                            Imprisoned in April, 1963 for protesting segregation, Martin Luther King, Jr. wrote this letter to affirm that nonviolent civil disobedience was essential to achieving the goals of the Civil Rights Movement. Read the full text of the letter <a href="https://www.africa.upenn.edu/Articles_Gen/Letter_Birmingham.html">here</a>.
+                        </p>
+                    </div>
+                </div>
+            
+        
+    
+    	
+    	
+    	
+    	
+        
+        
+        
+            
+        
+       	
+       	
+       		
+       			
+       			
+       			
+       		
+		
+        
+            
+                <div class="box-vocab-item">
+                    
+                        <a href="/lists/z3vx7ukn/1984"><img class="img-vocab-list" src="https://cdn.vocab.com/units/z3vx7ukn/cover.jpeg?width=220&v=16aeaaa6958"/></a>
+                    
+                    <div class="vocab-list-content">
+                        <a class="vlist-title" href="/lists/z3vx7ukn/1984">1984</a>
+                        
+                            <div class="vlist-author">
+                                George Orwell
+                            </div>
+                        
+                        <p class="vlist-txt">
+                            Published in 1949, this dystopian classic imagines a future of perpetual war, militaristic propaganda, and total government surveillance.
+                        </p>
+                    </div>
+                </div>
+            
+            
+        
+    
+    	
+    	
+    	
+    	
+        
+        
+        
+       	
+       	
+       		
+       			
+       			
+       			
+       				
+       			
+       		
+		
+        
+            
+            
+                <div class="box-vocab-item">
+                	
+                		
+                    	
+                        	<a href="/lists/8107630"><img class="img-vocab-list" src="https://cdn.vocab.com/units/gw5mfvr5/feature.png?width=500&v=17d106a7c82"/></a>
+                    	
+                	
+                    <div class="vocab-list-content">
+                        <a
+                          class="vlist-title"
+                          href="/lists/8107630"
+                        >Grade 10, List 1</a>
+                        <p class="vlist-txt">
+                            Learn these essential words that you'll encounter in literature, textbooks, class discussions, and more.
+                        </p>
+                    </div>
+                </div>
+            
+        
+    
+    <div class="box-more-vocab">
+ 		<a class="lk-more-vocab" href="/lists/">MORE VOCABULARY LISTS</a>
+	</div>
+
+
+			</div>
+			
+		</div>
+		</div>
+	</div>
+
+	
+
+	
+
+<!-- CSS are specificied in main.css -->
+<div class="sign-up-area">
+	<h2 class="sign-up">Sign up now (it’s free!)</h2>
+	<h3>Whether you’re a teacher or a learner, Vocabulary.com can put you or your class on the path to systematic vocabulary improvement.</h3>
+	<a role="button" href="/signup/" class="signup-button">Get started</a>
+</div>		
+</div>
+</div>
+
+<script>
+	Module.after(['vcom/dictionary/citation'], function(){
+		modules.vcom.dictionary.citation();
+	});
+</script>
