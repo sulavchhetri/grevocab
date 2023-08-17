@@ -31,6 +31,8 @@ def get_definitions(soup):
     result = []
     tag = soup.find("div", {"class": "word-definitions"})
     words = tag.find_all("li")
+    if not words:
+        return result
     for word in words:
         defintion_tag = word.find("div", {"class": "definition"})
         data = str(defintion_tag).split("</div>")[1:]
