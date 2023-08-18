@@ -7,12 +7,10 @@
     <style>
         body {
             background-color: #f8f9fa;
-            /* Light gray background */
         }
 
         .carousel-item {
             background-color: #ffffff;
-            /* White background for each slide */
             border-radius: 10px;
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
         }
@@ -20,7 +18,6 @@
         .carousel-control-prev-icon,
         .carousel-control-next-icon {
             background-color: #343a40;
-            /* Dark gray background for carousel controls */
             border-radius: 50%;
             width: 25px;
             height: 25px;
@@ -28,29 +25,50 @@
             top: 50%;
             transform: translateY(-50%);
             z-index: 1000;
-            /* To ensure the icons are above other content */
         }
 
         .carousel-control-prev {
             left: 10px;
-            /* Position the left control icon */
         }
 
         .carousel-control-next {
             right: 10px;
-            /* Position the right control icon */
         }
 
         .container {
-            padding-top: 50px;
-            /* Add some space at the top for the fixed icons */
+            padding-top: 10px;
+        }
+
+        .slide-input-container {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .search-input {
+            max-width: 100px;
+        }
+
+        .go-button {
+            font-size: 12px;
+            height: 37px;
         }
     </style>
+
 </head>
 
 <body>
-    <div class="container mt-5">
-        <div id="wordCarousel" class="carousel slide">
+    <div class="container mt-3">
+        <div class="slide-input-container">
+            <div class="row justify-content-center">
+                <div class="col-md-1.02">
+                    <input type="number" id="slideInput" class="form-control search-input" placeholder="Slide">
+                </div>
+                <div class="col-md-1">
+                    <button class="btn btn-primary btn-block go-button" onclick="goToSlide()">Go</button>
+                </div>
+            </div>
+        </div>
+        <div id="wordCarousel" class="carousel slide" data-interval="false">
             <div class="carousel-inner">
                 {% for word, definitions in data.items() %}
                 <div class="carousel-item {% if loop.index == 1 %}active{% endif %}">
@@ -104,10 +122,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script>
-        $("#wordCarousel").carousel({
-            interval: false
-        });
-
         $(document).keydown(function (e) {
             if (e.which === 37) {
                 $("#wordCarousel").carousel("prev");
@@ -115,6 +129,13 @@
                 $("#wordCarousel").carousel("next");
             }
         });
+
+        function goToSlide() {
+            var slideNumber = $("#slideInput").val();
+            if (slideNumber >= 0 && slideNumber < $("#wordCarousel .carousel-inner").children().length) {
+                $("#wordCarousel").carousel(parseInt(slideNumber));
+            }
+        }
     </script>
 </body>
 
