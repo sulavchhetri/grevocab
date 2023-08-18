@@ -9,8 +9,7 @@ from curl_cffi import requests
 from bs4 import BeautifulSoup
 from loguru import logger
 
-files_path = os.path.join(Path(__file__).parent.parent,
-                          "files", "gregmat_words.csv")
+files_path = os.path.join(Path(__file__).parent.parent, "files")
 
 
 headers = {
@@ -59,7 +58,7 @@ def get_gregmat_words():
     bad_words = ['Group', 'Take Test', 'Review']
     word_list = []
 
-    with open(files_path, 'r', encoding='utf-8') as csv_file:
+    with open(os.path.join(files_path, 'gregmat_words.csv'), 'r', encoding='utf-8') as csv_file:
         csv_reader = csv.reader(csv_file)
         next(csv_reader)
         for row in csv_reader:
@@ -67,3 +66,21 @@ def get_gregmat_words():
                 if word and not any(item in word for item in bad_words):
                     word_list.append(word.strip())
     return word_list
+
+
+def get_magoosh_words():
+    """
+        This function returns the list of words from the magoosh csv file
+
+        Returns: list :- List of words
+    """
+    word_list = []
+    with open(os.path.join(files_path, "magoosh_1000_words.csv"), 'r', encoding='utf-8') as csv_file:
+        csv_reader = csv.DictReader(csv_file)
+
+        for row in csv_reader:
+            word = row['word'].strip() if 'word' in row else None
+            if word:
+                word_list.append(word)
+
+    return list(set(word_list))

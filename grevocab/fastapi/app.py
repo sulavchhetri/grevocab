@@ -12,8 +12,13 @@ from grevocab.fastapi.util import PrettyJSONResponse
 from grevocab.main import scrape_words
 from starlette.responses import HTMLResponse
 
-gre_files_path = os.path.join(
-    Path(__file__).parent.parent.parent, "files", "gregmat.json")
+files_path = os.path.join(
+    Path(__file__).parent.parent.parent, "files")
+
+gregmat_files_path = os.path.join(files_path, "gregmat.json")
+
+magoosh_files_path = os.path.join(files_path, "magoosh.json")
+
 
 templates_path = os.path.join(Path(__file__).parent, "templates")
 app = FastAPI()
@@ -55,7 +60,17 @@ def get_gregmat_words(request: Request):
     """
         This function renders the gregmat data.
     """
-    with open(gre_files_path, 'r', encoding='utf-8') as file:
+    with open(gregmat_files_path, 'r', encoding='utf-8') as file:
+        data = json.load(file)
+    return templates.TemplateResponse("output.html", {"data": data, "request": request})
+
+
+@app.get("/magoosh", response_class=HTMLResponse)
+def get_magoosh_words(request: Request):
+    """
+        This function renders the magoosh data.
+    """
+    with open(magoosh_files_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
     return templates.TemplateResponse("output.html", {"data": data, "request": request})
 
