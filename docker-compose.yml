@@ -1,0 +1,12 @@
+services:
+ streamer: &python
+  build:
+   context: .
+   dockerfile: ./grevocab/Dockerfile
+  command: bash -c "python grevocab/fastapi/app.py"
+  container_name: grevocab
+  ports:
+    - '5000:5000'
+  volumes:
+   - ./:/data
+  restart: on-failure
