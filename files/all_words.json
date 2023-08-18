@@ -1,0 +1,135 @@
+{
+    "abjure": [
+        {
+            "definition": "formally reject or disavow a formerly held belief, usually under pressure",
+            "word_type": "verb",
+            "info": {
+                "synonyms": [
+                    "forswear",
+                    "recant",
+                    "resile",
+                    "retract"
+                ],
+                "type of": [
+                    "disown",
+                    "renounce",
+                    "repudiate"
+                ]
+            },
+            "examples": [
+                "“She abjured her beliefs”"
+            ]
+        }
+    ],
+    "abound": [
+        {
+            "definition": "be abundant or plentiful; exist in large quantities",
+            "word_type": "verb",
+            "info": {
+                "type of": [
+                    "be"
+                ]
+            },
+            "examples": []
+        },
+        {
+            "definition": "be in a state of movement or action",
+            "word_type": "verb",
+            "info": {
+                "synonyms": [
+                    "bristle",
+                    "burst"
+                ],
+                "type of": [
+                    "feature",
+                    "have"
+                ]
+            },
+            "examples": [
+                "“The room abounded with screaming children”"
+            ]
+        }
+    ],
+    "pugnacious": [
+        {
+            "definition": "ready and able to resort to force or violence",
+            "word_type": "adjective",
+            "info": {
+                "synonyms": [
+                    "rough"
+                ],
+                "": [
+                    "aggressive"
+                ]
+            },
+            "examples": [
+                "“\"pugnacious spirits...lamented that there was so little prospect of an exhilarating disturbance\"- Herman Melville”"
+            ]
+        },
+        {
+            "definition": "tough and callous by virtue of experience",
+            "word_type": "adjective",
+            "info": {
+                "synonyms": [
+                    "hard-bitten",
+                    "hard-boiled"
+                ],
+                "": [
+                    "tough"
+                ]
+            },
+            "examples": []
+        }
+    ],
+    "inept": [
+        {
+            "definition": "generally incompetent and ineffectual",
+            "word_type": "adjective",
+            "info": {
+                "synonyms": [
+                    "feckless"
+                ],
+                "": [
+                    "incompetent"
+                ]
+            },
+            "examples": [
+                "“inept handling of the account”"
+            ]
+        },
+        {
+            "definition": "revealing lack of perceptiveness or judgment or finesse",
+            "word_type": "adjective",
+            "info": {
+                "synonyms": [
+                    "tactless"
+                ],
+                "": [
+                    "maladroit"
+                ]
+            },
+            "examples": [
+                "“an inept remark”"
+            ]
+        },
+        {
+            "definition": "not elegant or graceful in expression",
+            "word_type": "adjective",
+            "info": {
+                "synonyms": [
+                    "awkward",
+                    "clumsy",
+                    "cumbersome",
+                    "ill-chosen",
+                    "inapt"
+                ],
+                "": [
+                    "infelicitous"
+                ]
+            },
+            "examples": [
+                "“if the rumor is true, can anything be more inept than to repeat it now?”"
+            ]
+        }
+    ]
+}

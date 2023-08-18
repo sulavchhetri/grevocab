@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Word Definitions</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div id="wordCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                {% for word, definitions in data.items() %}
+                <div class="carousel-item {% if loop.index == 1 %}active{% endif %}">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="mb-0">{{ word }}</h2>
+                        </div>
+                        <div class="card-body">
+                            {% for definition in definitions %}
+                            <div class="card mb-2">
+                                <div class="card-body">
+                                    <p><strong>Definition:</strong> {{ definition.definition }}</p>
+                                    <p><strong>Word Type:</strong> {{ definition.word_type }}</p>
+                                    <p><strong>Info:</strong></p>
+                                    <ul>
+                                        {% if definition.info.synonyms %}
+                                        <li><strong>Synonyms:</strong> {{ ', '.join(definition.info.synonyms) }}</li>
+                                        {% endif %}
+                                        {% if definition.info.type_of %}
+                                        <li><strong>Type of:</strong> {{ ', '.join(definition.info.type_of) }}</li>
+                                        {% endif %}
+                                    </ul>
+                                    {% if definition.examples %}
+                                    <p><strong>Examples:</strong></p>
+                                    <ul>
+                                        {% for example in definition.examples %}
+                                        <li>{{ example }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                    {% endif %}
+                                </div>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <a class="carousel-control-prev" href="#wordCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#wordCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
