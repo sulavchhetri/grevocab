@@ -1,3 +1,7 @@
+"""
+    This module is used to provide utilitary functions
+"""
+
 import os
 import csv
 from pathlib import Path
@@ -20,14 +24,22 @@ headers = {
     'sec-ch-ua-platform': '"Windows"',
     'sec-fetch-dest': 'empty',
     'sec-fetch-mode': 'cors',
-    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36',
+    'user-agent': "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"
+    " AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
 }
 
 
 def get_soup(word):
+    """
+        This function is used to return the soup of the word containing all the details
+
+        Args: word(str) : word to scrape
+        Returns: Soup(word)
+    """
     url = f"https://www.vocabulary.com/dictionary/definition.ajax?search={word}"
     try:
-        res = requests.get(url, headers=headers, impersonate='chrome110', timeout=20)
+        res = requests.get(url, headers=headers,
+                           impersonate='chrome110', timeout=20)
 
         if res.status_code != 200:
             return None
@@ -37,11 +49,17 @@ def get_soup(word):
         logger.info(err)
         return None
 
+
 def get_gregmat_words():
+    """
+        This function returns the list of words from the vocabmountains csv file
+
+        Returns: list :- List of words
+    """
     bad_words = ['Group', 'Take Test', 'Review']
     word_list = []
 
-    with open(files_path, 'r') as csv_file:
+    with open(files_path, 'r', encoding='utf-8') as csv_file:
         csv_reader = csv.reader(csv_file)
         next(csv_reader)
         for row in csv_reader:

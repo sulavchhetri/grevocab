@@ -1,21 +1,39 @@
+"""
+    This module is used to parse the details of the word from the soup
+"""
 
 def get_other_forms(soup):
+    """
+        This function get the other forms of the word
+
+        like : play, played, playing
+    """
     other_forms_tag = soup.find("p", {"class": "word-forms"})
     words = other_forms_tag.b.text
     return words.split(";")
 
 
 def get_short_meaning(soup):
+    """
+        This function returns the short meaning of the word
+    """
     tag = soup.find("p", {"class": "short"})
     return tag.text
 
 
 def get_long_meaning(soup):
+    """
+        This function returns the long meaning of the word
+    """
     tag = soup.find("p", {"class": "long"})
     return tag.text
 
 
 def get_more_info(tag):
+    """
+        This function returns the synonyms, antonyms, and the context in which they
+        are used like type, type_of
+    """
     result = {}
     if not tag:
         return result
@@ -28,6 +46,9 @@ def get_more_info(tag):
 
 
 def get_definitions(soup):
+    """
+        This function is used to get the details of the word
+    """
     result = []
     tag = soup.find("div", {"class": "word-definitions"})
     if not tag:
@@ -43,8 +64,7 @@ def get_definitions(soup):
             result.append({
                 'definition': definition,
                 'word_type': word_type,
-                'examples': examples,
-                'info': get_more_info(word)
-
+                'info': get_more_info(word),
+                'examples': examples
             })
     return result

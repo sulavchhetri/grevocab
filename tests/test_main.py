@@ -1,7 +1,6 @@
 import json
 from grevocab.main import scrape_words
 from grevocab.utils import get_gregmat_words
-from grevocab.utils import get_soup
 
 
 if __name__ == "__main__":

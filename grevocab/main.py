@@ -1,3 +1,6 @@
+"""
+    This module is used to scrape the words from the vocabulary.com
+"""
 import random
 import time
 from loguru import logger
@@ -5,6 +8,13 @@ from grevocab.vocabulary import get_definitions
 from grevocab.utils import get_soup
 
 def scrape_words(words):
+    """
+        This function used to scrape the data about the words like definitions, synonyms
+
+        Args: words(list) : List of words to scrape
+
+        Returns: list[dict] : Info about the words
+    """
     result = {}
     count = 0
     for word in words:
