@@ -57,16 +57,17 @@
 </head>
 
 <body>
-    <div class="container mt-2">
-        <h3 class="mb-2">Enter Words :</h3>
-        <form method="post">
-            <div class="mb-3">
-                <label for="words" class="form-label">Words:</label>
-                <input type="text" class="form-control form-control-sm" id="words" name="words" required>
-            </div>
-            <button type="submit" class="btn btn-secondary btn-sm">Submit</button>
-        </form>
     <div class="container mt-3">
+        <div class="slide-input-container">
+            <div class="row justify-content-center">
+                <div class="col-md-1.02">
+                    <input type="number" id="slideInput" class="form-control search-input" placeholder="Slide">
+                </div>
+                <div class="col-md-1">
+                    <button class="btn btn-primary btn-block go-button" onclick="goToSlide()">Go</button>
+                </div>
+            </div>
+        </div>
         <div id="wordCarousel" class="carousel slide" data-interval="false">
             <div class="carousel-inner">
                 {% for word, definitions in data.items() %}
